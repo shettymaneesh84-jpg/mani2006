@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+</head>
+<body>
+
+    <header> 
+        <h1> User Space</h1>
+        <a href="/logout">logout</a>
+    </header>
+    <section class=""welcome>
+        <h1> hello ,welcome <% user.fullname %></h1>
+        <p> you have sucessfully loged in </p>
+
+    </section>
+    <section>
+        <img src="/profile-picture"alt="profile picture">
+        <h2> <% user.fullname %></h2>
+        <p > <% user.email %> </p>    
+    </section>
+
+</body>
+</html>
